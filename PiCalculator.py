@@ -65,19 +65,25 @@ class PiCalculator:
             pi_4 = 4 * math.atan(1/5) - math.atan(1/239)
             return 4 * pi_4
 
-calculator = PiCalculator()
 
-# Výpočet π různými metodami
-terms = 1000000  # Počet členů řady
-points = 1000000  # Počet bodů pro Monte Carlo metodu
+def main():
+    calculator = PiCalculator()
 
-pi_leibniz = calculator.calculate_pi_leibniz(terms)
-pi_nilakantha = calculator.calculate_pi_nilakantha(terms)
-pi_monte_carlo = calculator.calculate_pi_monte_carlo(points)
-pi_machin = calculator.calculate_pi_machin()
+    # Výpočet π různými metodami
+    terms = 1000000  # Počet členů řady
+    points = 1000000  # Počet bodů pro Monte Carlo metodu
 
-print("Pi (Leibniz):", pi_leibniz)
-print("Pi (Nilakantha):", pi_nilakantha)
-print("Pi (Monte Carlo):", pi_monte_carlo)
-print("Pi (Machin):", pi_machin)
-print("Pi (math.pi):", math.pi)
+    pi_leibniz = calculator.calculate_pi_leibniz(terms)
+    pi_nilakantha = calculator.calculate_pi_nilakantha(terms)
+    pi_monte_carlo = calculator.calculate_pi_monte_carlo(points)
+    pi_machin = calculator.calculate_pi_machin()
+
+    print("Pi (Leibniz):", pi_leibniz)
+    print("Pi (Nilakantha):", pi_nilakantha)
+    print("Pi (Monte Carlo):", pi_monte_carlo)
+    print("Pi (Machin):", pi_machin)
+    print("Pi (math.pi):", math.pi)
+    
+
+if __name__ == "__main__":
+    main()
