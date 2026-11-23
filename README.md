@@ -7,9 +7,35 @@
 
 [🇬🇧 English](#-english) · [🇨🇿 Čeština](#-čeština)
 
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Tkinter](https://img.shields.io/badge/Tkinter-GUI-4B8BBE)](https://docs.python.org/3/library/tkinter.html)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+<div align="center">
+
+  <!-- 1. Jazyk, GUI a testy -->
+  <p>
+    <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.x"/></a>
+    <a href="https://docs.python.org/3/library/tkinter.html"><img src="https://img.shields.io/badge/Tkinter-Desktop%20GUI-4B8BBE?style=for-the-badge&logo=python&logoColor=white" alt="Tkinter GUI"/></a>
+    <a href="https://docs.python.org/3/library/unittest.html"><img src="https://img.shields.io/badge/Tests-unittest-22C55E?style=for-the-badge&logo=pytest&logoColor=white" alt="Unit Tests"/></a>
+    <img src="https://img.shields.io/badge/Dependencies-Standard%20Lib-10B981?style=for-the-badge" alt="Standard Library"/>
+  </p>
+
+  <!-- 2. Metody výpočtu π a architektura -->
+  <p>
+    <img src="https://img.shields.io/badge/Approximations-4%20Methods-7C3AED?style=for-the-badge" alt="4 Approximation Methods"/>
+    <img src="https://img.shields.io/badge/Leibniz%20%26%20Nilakantha-Series-6366F1?style=for-the-badge" alt="Leibniz and Nilakantha Series"/>
+    <img src="https://img.shields.io/badge/Monte%20Carlo-Stochastic-EC4899?style=for-the-badge" alt="Monte Carlo Method"/>
+    <img src="https://img.shields.io/badge/Machin-Formula-06B6D4?style=for-the-badge" alt="Machin Formula"/>
+    <img src="https://img.shields.io/badge/Paradigm-OOP-8B5CF6?style=for-the-badge" alt="Object-Oriented Programming"/>
+  </p>
+
+  <!-- 3. GitHub statistiky, autor a licence -->
+  <p>
+    <a href="https://github.com/hrosicka/PiCalculator/stargazers"><img src="https://img.shields.io/github/stars/hrosicka/PiCalculator?style=for-the-badge&logo=github&color=FACC15&logoColor=white" alt="GitHub Stars"/></a>
+    <a href="https://github.com/hrosicka/PiCalculator/issues"><img src="https://img.shields.io/github/issues/hrosicka/PiCalculator?style=for-the-badge&logo=github&color=F97316" alt="GitHub Issues"/></a>
+    <a href="https://github.com/hrosicka/PiCalculator/commits/main"><img src="https://img.shields.io/github/last-commit/hrosicka/PiCalculator?style=for-the-badge&logo=git&color=990000" alt="Last Commit"/></a>
+    <a href="https://github.com/hrosicka"><img src="https://img.shields.io/badge/Author-Hanka%20%F0%9F%91%A9%E2%80%8D%F0%9F%94%AC-deeppink?style=for-the-badge" alt="Author: Hanka"/></a>
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/hrosicka/PiCalculator?style=for-the-badge&color=EAB308" alt="MIT License"/></a>
+  </p>
+
+</div>
 
 </div>
 
